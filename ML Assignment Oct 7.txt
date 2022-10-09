@@ -1,0 +1,52 @@
+1)Define Machine Learning?
+Machine learning is a subfield of artificial intelligence, 
+which is broadly defined as the capability of a machine to imitate intelligent human behavior.
+
+Machine learning is nothing bust the computation of mathematical function y=f(x),such that for every value of x we have a corresponding Y value. 
+Y is a predictor and X is a feature(data points)
+
+
+2)What is the intuition behind machine learning ?
+The idea behind machine learning is to learn from the past mistakes and try to find the best possible coefficients 
+i.e. b0 and b1 so that we are able to reduce the distance between predicted and observed y which leads to the minimization 
+of error in predictions which we are making. This intuition remains the same throughout all the machine learning algorithms 
+only the problem in question and the methodology to solve the problem changes.
+
+3)MACHINE LEARNING PIPELINE/STEPS?
+THERE ARE 7 STEPS OF MACHINE LEARNING : 
+1.DATA COLLECTION 
+2.DATA PREPARATION
+3.CHOOSING A MODEL
+4.TRAINING OF MODEL
+5.MODEL EVALUATION
+6.HYPERPARAMETER TUNING
+7.PREDICTION
+
+4)WHat is hyperparameter?
+In machine learning, a hyperparameter is a parameter whose value is used to control the learning process
+
+Four Basic Methodologies of Hyperparameter Tuning
+
+1. Manual tuning
+2. Grid search
+3. Randomized search
+4. Bayesian optimization
+
+What is train and test data ?
+The train-test split is used to estimate the performance of machine learning algorithms that are applicable for prediction-based Algorithms
+This method is a fast and easy procedure to perform such that we can compare our own machine learning model results to machine results.
+ By default, the Test set is split into 30 % of actual data and the training set is split into 70% of the actual data.
+ 
+WHat is unseen data ?
+The unseen data is all types of data that a model has never learned before. 
+Ideally, the testing data is supposed to flow directly to the model in many testing iterations. 
+However, in reality, access to such data is limited or not yet available in a new environment.
+
+why do we need validation at the time of training in machine learning?
+The process where a trained model is evaluated with a testing data set. 
+i)Evaluate model on validation set 
+ii)tweak model according to results on 	validation set 
+iii)pick model that is best on validation set. 
+iv)confirm result on test set 
+
+
