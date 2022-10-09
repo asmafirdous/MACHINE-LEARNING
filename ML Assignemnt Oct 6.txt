@@ -1,0 +1,28 @@
+DATA SCIENTIST:
+a person employed to analyse and interpret complex digital data, such as the usage statistics of a website,
+especially in order to assist a business in its decision-making.
+
+
+SHOULD HAVE AS A DATA SCIENTIST 
+->Understanding business requirement (WHy would u need ML, what do you want to achieve ) 
+->Problem solving capacity
+->Investigative skills
+->Understanding the Data points
+->Having clear understanding over the target or solution to achieve 
+
+WHY MACINE LEARNING IN NEED ?
+i)Reduce manual work around , and reduce human efforts
+ii)We want system which can predict the solution for future 
+
+WHat is machine learning ?
+Machine Learning Is a Form of Artificial Intelligence that Makes Predictions from Data. 
+
+Types of machine learning ?
+i)Supervised learning - Labelled Data 
+a)Classifier - Discrete (Yes/no)(This/that),(Optional)(many option)
+b)Regression  - Continuous ( eg: Price of the house) 
+ii)Unsupervised learning - Unlabelled Data 
+a)Clustering
+b)Association
+iii)Reinforcement learning  - (Reward based earning) Learning from +ve & -ve reinforcement,the machine learns how to act in a certain environment. 
+
