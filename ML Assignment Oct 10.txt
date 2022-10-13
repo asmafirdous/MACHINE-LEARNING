@@ -1,0 +1,73 @@
+I.Research and make notes on the following topics:
+
+1)Why is pandas loved by the analytics community?
+	i) Data representation - helps to analyze and understand data better
+	ii)Less writing and more work done - Pandas helps to shorten the procedure of handling data. With the time saved, we can focus more on data analysis algorithms.
+	iii)An extensive set of features - They provide you with a huge set of important commands and features which are used to easily analyze your data.
+	iv)Efficiently handles large data - Easy to handl large data
+	v)Makes data flexible and customizable  Pandas provide a huge feature set to apply on the data you have so that you can customize, edit and pivot it 
+
+2)What are Dataframes?
+	A DataFrame is a data structure that organizes data into a 2-dimensional table of rows and columns, much like a spreadsheet.
+
+3)Pandas File Input / Output
+
+4)Pandas built in functions ?
+	data2 = pd.DataFrame(weather_data)
+	df.describe()
+	df.describe(include = 'all')
+	data = pd.DataFrame(weather_data,columns = ['date','temperature','wind_speed(in kmph)','type_of_weather'])
+	df = pd.read_csv(filepath_or_buffer="/content/ADANIPORTS.csv")
+	df.shape
+	df.head
+	df.tail
+	df[0:6:2] OR df[-1:-10:-2](Slicing [start:end:step]
+	df.info()
+	df.isnull()
+	df.isnull().sum()
+	df.columns
+	df.count()
+	df.value_count()
+	df.Symbol.value_counts() -- Symbol is a feature
+	df.dtypes
+	df["Open"].max()
+	df['Open'].min()
+	df[df['Open']==df['Open'].min()]
+
+
+5)What are pandas built?
+	Pandas is built on top of two core Python libraries—matplotlib for data visualization and NumPy for mathematical operations. 
+
+
+6)Slicing with Pandas ?
+
+	a))How to retrieve a column value from a Dataframe
+	i)based on integer-location indexing (iloc) 
+	ii)based on the label indexing (loc).
+		To retrieve the first column value (eg: df.iloc[0].col1)
+		To retrieve the last column value: (eg :df.iloc[-1].col1)
+		To retrieve a column value with the label(df.loc[1, “col1”])
+	
+
+7)How to do Data Inconstancy Check with pandas ?
+	-> Check the dtype of the features 
+	-> Ifthe dtypes are marked wrong, do a conversion
+
+8)How to Check for Null values ?
+	df.isnull()
+	df.isnull().sum()
+
+9)How to Check for duplicate values?
+	print(data.duplicated())
+	data[data.duplicated() == True]
+
+10)Data Cleaning with Pandas
+
+	Dropping Columns/row in a DataFrame
+	Changing the Index of a DataFrame
+	Tidying up Fields in the Data
+	Validating the duplicates 
+	finding null values
+	Renaming Columns and Skipping Rows
+
+---------------------
