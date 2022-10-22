@@ -1,0 +1,39 @@
+1)Research about various types of distribution for continuous data
+What are the different types of distributions of data?
+
+There are two types of data distribution based on two different kinds of data: Discrete and Continuous. 
+Discrete data distributions include binomial distributions, Poisson distributions, and geometric distributions.
+Continuous data distributions include normal distributions and the Student's t-distribution.
+
+2)Mean,Median and Mode (Mesurements for central tendency) - DONE 
+
+3)Research about range and IQR Value /Difference in between range and IQR
+The IQR describes the middle 50% of values when ordered from lowest to highest.
+find the interquartile range (IQR), ​first find the median (middle value) of the lower and upper half of the data. 
+These values are quartile 1 (Q1) and quartile 3 (Q3). 
+IQR value is (Q3-Q1)
+IQR Range is between (Q1 to Q3)
+
+4)Histogram,Boxplot ,bar plot and pie chart
+
+
+Histogram :
+a diagram consisting of rectangles whose area is proportional to the frequency of a variable and whose width is equal to the class interval.
+
+X axis : Bin 
+Y axis : Frequency of variable 
+Helps to find the distribution (Normal , left skewed or right skewed )
+
+BoxPLot : 
+a simple way of representing statistical data on a plot in which a rectangle is drawn to represent the second and third quartiles,
+usually with a vertical line inside to indicate the median value. The lower and upper quartiles are shown as horizontal lines either 
+side of the rectangle.
+
+Barchart :
+A bar plot or bar chart is a graph that represents the category of data with rectangular bars with lengths and heights that is proportional to the values which they represent. The bar plots can be plotted horizontally or vertically.
+
+Piechart : 
+A Pie Chart is a circular statistical plot that can display only one series of data. The area of the chart is the total percentage of the given data. The area of slices of the pie represents the percentage of the parts of the data.
+
+
+5)Research on the given dataset and try to pull up insight based outof the data. 
