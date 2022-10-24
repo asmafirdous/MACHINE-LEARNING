@@ -1,0 +1,59 @@
+Research and make notes on :
+
+1)Understanding data representation in ML
+A machine learning model can't directly see, hear, or sense input examples. 
+Instead, you must create a representation of the data to provide the model with 
+a useful vantage point into the data's key qualities. That is, in order to train a model,
+you must choose the set of features that best represent the data.
+
+2)What is regression?
+A regression is a statistical technique that relates a dependent variable to one or more independent (explanatory) variables. 
+ A regression model is able to show whether changes observed in the dependent variable are associated with changes in one or more of the explanatory variables.
+ 
+
+3)Mathematical Representation of regression (GI)
+
+i)Linear Regression
+a model with one independent feature(x) and a sample training set where the dependent feature is the size of the house(x) and the prediction is the price of the house(y).
+In this case (y) is linearly dependent on (x) hence we can create a hypothesis that can be resembled the equation of a straight line (y=mx+c).
+The linear equation assigns one scale factor to each input value or column, called a coefficient and represented by the capital Greek letter Beta (B).
+One additional coefficient is also added, giving the line an additional degree of freedom (e.g. moving up and down on a two-dimensional plot) and is often called the intercept or the bias coefficient.
+y = B0 + B1*x, where
+
+B0 - represents the intercept
+B1 - represents the coefficient
+x - represents the independent variable
+y - represents the output or the dependent variable
+In higher dimensions when we have more than one input (x), the line is called a plane or a hyper-plane.
+
+
+ii)Logistic Regression
+Logistic regression does the same thing, but with one addition. 
+It runs the result through a special non-linear function called as the logistic function or sigmoid function to produce the output y.
+y=logistic(c+x1*w1+x2*w2+x3*w3……..+xn*wn)
+
+y=1/1+e[−(c+x1∗w1+x2∗w2+x3∗w3+……..+xn∗wn)]y
+
+The sigmoid/logistic function is given by the following equation.
+
+y=1/1+e−x
+
+
+4)How to model the data?
+Step 1: Begin with existing data.
+- you need to prepare, clean and label your data.
+- Get rid of garbage entries, missing pieces of information, anything that’s ambiguous or confusing.
+-Filter your dataset down to only the information which is required.
+
+Step 2: Analyze data to identify patterns
+-Choosing the right algorithm, applying it,
+-test until you find the one that gives you the results most aligned to what you’re trying to achieve with your data. 
+
+
+Step 3: Make predictions.
+i)A classification algorithm
+-Binary classification categorizes data between two categories.
+-Multi-class classification sorts data between multiple categories. 
+
+ii)A regression algorithm
+-When the result you’re looking for is an actual number
