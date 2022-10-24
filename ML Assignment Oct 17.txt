@@ -1,0 +1,37 @@
+1. Learn about Probability distribution.
+	A probability distribution is represented in the form of a table or an equation. The table or the equation corresponds to every outcome
+	of a statistical experiment with its probability of occurrence.
+	
+Types of Probability Distributions
+Statisticians divide probability distributions into the following types:
+i)Discrete Probability Distributions
+ii)Continuous Probability Distributions
+
+Types of Discrete Probability Distributions
+1.Binomial distributions
+2.Normal distributions
+3.Poisson distributions
+
+Types of Continuous Probability Distributions
+i)Uniform distributions
+ii)Cumulative probability distributions
+
+Probability Distribution FUnction 
+Discrete		Probability Mass Function 		----|
+													--Cumulative Distribution Function
+Continuous 		Probability Density Function 	----|
+
+
+2. Learn about PDF and CDF.
+	PDF - Probability density function  and CDF - Cummulative distribution function
+	The CDF is the probability that random variable values less than or equal to x 
+	The PDF is a probability that a random variable, say X, will take a value exactly equal to x.
+
+3. Performence Metrics : https://www.analyticsvidhya.com/blog/2021/07/metrics-to-evaluate-your-classification-model-to-take-the-right-decisions/#h2_6
+	DONE 
+
+4. Running Case Study: https://www.kaggle.com/code/mnassrib/titanic-logistic-regression-with-python/notebook#1.-Import-Data-&-Python-Packages
+Incomplete with error codes - required clarification on the coding part 
+Attached the code 
+
+5. Logistic Regression Official Documentation : https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html - DONE 
