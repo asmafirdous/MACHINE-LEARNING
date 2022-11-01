@@ -1,0 +1,35 @@
+1.What is gridsearchcv and randomsearchcv and how to do hyperparameter tuning with them
+
+GridsearchCV:
+i) GridSearchCV is the process of performing hyperparameter tuning in order to determine the optimal values for a given model
+ii)It tries with all possible values to know the optimal values. 
+iii)We use GridSearchCV to automate the tuning of hyperparameters.
+iv)GridSearchCV is a function that comes in Scikit-learn’s(or SK-learn) model_selection package.
+v)This function helps to loop through predefined hyperparameters and fit your estimator (model) on your training set. 
+
+RandomsearchCV:
+i)Unlike GridsearchCV, here not all parameters are tested. 
+ii) the search is randomized and all the other parameters are held constant while the parameters we are testing is variable.
+iii)We use RandomsearchCV to automate the tuning of hyperparameters.
+iv)we can use n_iter to specify how many parameter values we want to sample and test.
+
+
+2. what is the difference in between fit(),fit_transform(),transform()and predict()?
+SCIKIT LEARN - eg:standardscaler,minmaxscaler,Principal ComponentAnalysis and Imputer 
+i).fit() - it picks the feature value and finds the paramaeters like  mean,minmax,eigen vector and standarddeviation.
+fit() is used to compute the parameter needed for transformation 
+
+ii).transformer() . We apply the formula (z = (x – μ) / σ)where μ=0 and σ=1 in each and every data points.
+Transformers  (Changing the input data from one format to another format)
+tranform is performed only in case, where you want to perform transformation to the input
+transform() is for scaling the data to convert into standard format for the model.
+
+iii)fit_transform - it performs both fit and transform .
+fit_tranform() is combination of two which is doing above work in efficiently.
+
+
+3.why we should not use fit_transform in test data?
+Since fit_transform() is already computing and transforming the training data only transformation 
+for testing data is left,since parameter needed for transformation is already computed and stored only 
+transformation() of testing data is left therefor only transform() is used instead of fit_transform().
+TO overcome overfitting
